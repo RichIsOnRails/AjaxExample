@@ -1,0 +1,11 @@
+<div class="modal-header">
+  <h3>Delete Product</h3>
+</div>
+<div class="modal-body">
+<ul class="errors"></ul>
+Are you sure you wish to delete <b><%= @product.name %></b>?
+</div>
+<div class="modal-footer">
+  <%= link_to "Yes, Delete This Product", product_path(@product), method: :delete, remote: true, class: "btn btn-danger" %>
+  <%= link_to "No, Please Don't", "#", class: "btn", data: { dismiss: "modal" } %>
+</div>

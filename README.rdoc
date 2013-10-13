@@ -1,0 +1,3 @@
+== AJAX Example app
+
+See http://richonrails.com/articles/basic-ajax-in-ruby-on-rails for details.
